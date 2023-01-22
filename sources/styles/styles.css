@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+:root {
+    --main-green: #30CB9D;
+    --grey-container: #dfdfdf;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem !important;
+}
+
+.header {
+    background-color: var(--main-green);
+    text-align: center;
+    height: 4rem;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--main-green);
+    color: white;
+    text-align: center;
+    height: 3rem;
+    
+
+}
+
+.question {
+    background-color: var(--grey-container);
+    border-radius: 10px 10px;
+    transform: translateY(50%);
+    
+}
+
+.btn-valider {
+    background-color: var(--main-green) !important;
+    color: white !important; 
+    left: 50%
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/************* APP ****************/
+.app {
+    height: 90vh;
+}
+
+.back-button {
+    float: left;
+}
+
+.timeStop {
+    text-align: center;
+    height: 5rem;
+    transform: translateY(80%);
+    
+}
+
+.profile {
+    background-color: #30CB9D;
+    width: 45%;
+    border-radius: 10px 10px;
+    opacity: 0.7;
+    
+}
+
+.info {
+    text-align: center;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #30CB9D;
+    width: 45%;
+    border-radius: 10px 10px;
+    opacity: 0.7;
+    height: 6.2rem;
+    
+}
+
+.button-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 52vh;
+
+}
+
+.helpPage {
+    background-color: var(--grey-container);
+    border-radius: 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-footer {
+        height: 35vh;
+    
+    }
+  }
