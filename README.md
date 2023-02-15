@@ -7,5 +7,5 @@ Canna Stop is a web-based application built for helps users quit cannabis use. I
 <img width="300" src="https://i.postimg.cc/RF0M2Gbx/set-removebg-preview.png">
 </div>
 
-[Demo](http://cannastop.alwaysdata.net)
+
 
